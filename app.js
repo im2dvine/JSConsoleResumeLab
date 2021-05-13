@@ -107,3 +107,74 @@ displaySkill("First Aid", false);
 displaySkill("Certified Foodie", true);
 
 /***************************************************************/
+console.log("\n");
+
+/*WalkThrough Notes*/
+
+let myName = "Daze";
+
+console.log("Name: " + myName.toUpperCase())
+console.log("Career: Flower Child")
+console.log("Description: I Love You!")
+
+console.log(" ")
+
+let myInterests = ["Green", "Purple", "Outer Space", "Food"]
+
+console.log("My Interests:")
+
+for(i = 0; i < myInterests.length; i++) {
+    console.log("* " + myInterests[i])
+}
+
+console.log("\n")
+
+function displayPosition(company, job, description) {
+    console.log("* " + company + ", " + job + ", " + description)
+};
+
+console.log("My Previous Experience:")
+
+displayPosition("AT&T", "Engineer", "Engineered new fiber routes and structures.")
+displayPosition("DameLoVegan", "Master Chef", "Developed exceptional foodie experiences for foodies like me!")
+
+
+let skillss = [
+    {
+        skill: "Coding",
+        isCool: true
+    },
+    {
+        skill: "Working Out",
+        isCool: true
+    },
+    {
+        skill: "Working at the barrel",
+        isCool: false
+    },
+    {   
+        skill: "Dancer",
+        isCool: true
+    }, 
+    {
+        skill: "being in band",
+        isCool: false
+    }
+]
+
+function displaySkills(theSkill, isItCool) {
+    if (isItCool == true) {
+        console.log("* BAM: " + theSkill)
+    } else {
+        console.log("* " + theSkill)
+    }
+}
+
+
+console.log("\n")
+console.log("My Skills:")
+
+
+for (i = 0; i < skillss.length; i++) {
+    displaySkills(skillss[i].skill, skillss[i].isCool)
+}
