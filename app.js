@@ -1,26 +1,4 @@
-/*1st Attempt-array list of objects...*/
-
-//let resume = [
-//     {
-//         name: "Daesy"
-//     },
-//     {
-//         career: "Creative / Student"
-//     },
-//     {
-//         description: "I like pickles(:"
-//     },
-//     {
-//         interests =["Art", "Cooking", "Space", "Mother Earth"],
-//     },
-//     {
-//         positions =[]
-//     }
-// ];
-
-// console.log(resume.name);
-
-/*2nd Attempt-object containing items and arrays?...*/
+/*1st Attempt-object containing items and arrays?...*/
 
 // let resume = {
 //     name: "Daesy",
@@ -44,11 +22,6 @@
 // console.log("Positions: " + resume.positions);
 // console.log("Skills: " + resume.skills);
 
-// let myName = resume.name;
-// let allCaps = myName.toUpperCase;
-
-// console.log("Name: " + allCaps)
-
 /************************************************************************************/
 //***INSTRUCTIONS***/
 // Your "resume" will simply be a series of console.log statements to print the resume data to the console.
@@ -67,7 +40,7 @@
 // You must have a function called displaySkill that takes parameters for skill name and a boolean value for whether the skill is cool (true/false). Inside the function, you should print BAM: in front of the skill name only if the skill is cool. If you don't have any cool skills, make some up. Use this function to display each entry in the "My Skills" section.
 /***********************************************************************************/
 
-/*3rd Attempt*/
+/*2nd Attempt*/
 
 let name = "Daesy";
 let allCapsName = name.toUpperCase();
@@ -117,8 +90,6 @@ console.log("\nMy Skills: ");
 //console.log(skills);
 
 
-// function displaySkill(skillName, skills = cool){
-
 function displaySkill(mySkill, bam) {
     if (bam == true) { //If (bam) true prints BAM: and 'mySkill'.
         console.log("*  BAM: " + mySkill);
@@ -134,3 +105,5 @@ displaySkill("Creative", true);
 displaySkill("Quick Learner", false);
 displaySkill("First Aid", false);
 displaySkill("Certified Foodie", true);
+
+/***************************************************************/
