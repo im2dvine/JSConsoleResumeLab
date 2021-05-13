@@ -49,7 +49,7 @@ console.log("Name: " + allCapsName);
 let career = "Creative / Photographer / Student";
 console.log("Career: " + career);
 
-let description = "I like pickels(:";
+let description = "I like pickles(:";
 console.log("Description: " + description);
 
 let interests = ["Art", "Cooking", "Space", "Mother Earth", "Physics"];
